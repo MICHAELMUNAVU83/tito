@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f3efe7"/>
+  <image href="logo-horizontal.svg" x="84" y="72" width="440" height="98"/>
+  <text x="84" y="350" fill="#16181c" font-family="Cormorant Garamond, Georgia, serif" font-size="112" font-style="italic">Value, made real.</text>
+  <line x1="84" y1="410" x2="1116" y2="410" stroke="#9a7b45" stroke-width="2"/>
+  <text x="84" y="472" fill="#6b6458" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">BRAND · CORPORATE STRATEGY · COMMERCIAL STRATEGY</text>
+  <text x="84" y="550" fill="#6b6458" font-family="Arial, sans-serif" font-size="20">African-rooted. Global in reach.</text>
+</svg>

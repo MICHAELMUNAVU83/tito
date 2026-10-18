@@ -1,0 +1,16 @@
+{
+  "name": "Tito Alai & Associates",
+  "short_name": "Tito Alai",
+  "description": "African-rooted advisory for brand, corporate strategy and commercial strategy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3efe7",
+  "theme_color": "#16181c",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
