@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tito Alai &amp; Associates is an African-rooted advisory firm helping organisations turn potential into measurable value." />
+    <meta name="theme-color" content="#f3efe7" />
+    <title>Tito Alai &amp; Associates — Value, made real.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&amp;family=Hanken+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { ink: '#16181c', brass: '#9a7b45', bone: '#f3efe7', stone: '#6b6458' },
+            fontFamily: { display: ['Cormorant Garamond', 'serif'], sans: ['Hanken Grotesk', 'sans-serif'] },
+            maxWidth: { site: '84rem' },
+          },
+        },
+      };
+    </script>
+    <style>
+      ::selection { background: #9a7b45; color: #fff; }
+      .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+      .reveal.visible { opacity: 1; transform: none; }
+      @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+    </style>
+  </head>
+  <body class="bg-bone font-sans text-ink antialiased">
+    <a href="#main" class="fixed left-4 top-4 z-[60] -translate-y-24 bg-ink px-4 py-3 text-sm text-white focus:translate-y-0">Skip to content</a>
+
+    <header class="sticky top-0 z-50 border-b border-ink/10 bg-bone/95 backdrop-blur">
+      <div class="mx-auto flex max-w-site items-center justify-between px-5 py-5 sm:px-8 lg:px-12">
+        <a href="#" class="group flex min-w-[190px] items-center gap-4" aria-label="Tito Alai &amp; Associates home">
+          <span class="font-display text-[1.22rem] font-medium uppercase leading-none tracking-[.16em]">Tito Alai</span>
+          <span class="hidden h-px w-8 bg-brass sm:block"></span>
+          <span class="hidden text-[.65rem] font-semibold uppercase tracking-[.25em] sm:block"><i class="mr-2 font-display text-base font-normal text-brass">&amp;</i>Associates</span>
+        </a>
+        <button id="menu-button" class="border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[.2em] lg:hidden" aria-expanded="false" aria-controls="menu">Menu</button>
+        <nav id="menu" class="absolute left-0 right-0 top-full hidden border-b border-ink/10 bg-bone px-5 py-6 lg:static lg:block lg:border-0 lg:bg-transparent lg:p-0" aria-label="Primary navigation">
+          <div class="flex flex-col gap-5 text-xs font-semibold uppercase tracking-[.18em] lg:flex-row lg:items-center lg:gap-8">
+            <a class="transition-colors hover:text-brass" href="#approach">Approach</a>
+            <a class="transition-colors hover:text-brass" href="#services">Services</a>
+            <a class="transition-colors hover:text-brass" href="#about">About</a>
+            <a class="transition-colors hover:text-brass" href="#insights">Insights</a>
+            <a class="border border-ink px-5 py-3 text-center transition-colors hover:bg-ink hover:text-bone" href="#contact">Start a conversation</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="relative min-h-[calc(100vh-81px)] overflow-hidden border-b border-ink/10">
+        <div class="mx-auto grid min-h-[calc(100vh-81px)] max-w-site items-end gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-12 lg:px-12 lg:py-28">
+          <div class="relative z-10 lg:col-span-9">
+            <p class="mb-10 text-[.68rem] font-semibold uppercase tracking-[.32em] text-stone">Brand · Corporate strategy · Commercial strategy</p>
+            <h1 class="max-w-5xl font-display text-[clamp(4.5rem,12vw,10.5rem)] font-medium italic leading-[.76] tracking-[-.055em]">Value,<br />made real.</h1>
+            <div class="mt-12 flex max-w-3xl flex-col gap-8 border-t border-brass pt-8 md:flex-row md:items-end md:justify-between">
+              <p class="max-w-2xl text-lg leading-relaxed text-stone sm:text-xl">An African-rooted advisory firm with global reach, helping organisations move from potential to value—at home and abroad.</p>
+              <a href="#approach" class="group shrink-0 text-xs font-semibold uppercase tracking-[.2em]">Our approach <span class="ml-3 inline-block text-brass transition-transform group-hover:translate-x-2">→</span></a>
+            </div>
+          </div>
+          <div class="pointer-events-none absolute -right-20 top-24 select-none font-display text-[28rem] italic leading-none text-brass/[.055]" aria-hidden="true">&amp;</div>
+        </div>
+      </section>
+
+      <section id="approach" class="bg-white py-24 sm:py-32 lg:py-40">
+        <div class="reveal mx-auto grid max-w-site gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:px-12">
+          <div class="lg:col-span-4">
+            <p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-brass">Our point of view</p>
+            <p class="mt-4 font-display text-3xl italic text-stone">Potential is only the beginning.</p>
+          </div>
+          <div class="lg:col-span-8">
+            <h2 class="font-display text-5xl font-medium leading-[.98] tracking-[-.03em] sm:text-7xl">The disciplined work of turning potential into measurable value.</h2>
+            <div class="mt-12 grid gap-8 border-t border-ink/15 pt-8 text-base leading-relaxed text-stone md:grid-cols-2">
+              <p>Across Africa—and in the global markets where its value is ultimately captured—the conversation about value addition is everywhere. What is rare is the how.</p>
+              <p>We advise CEOs, boards and founders on brand, strategy and commercial strategy: sharpening what they stand for, how they compete and how they are understood.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="bg-ink py-24 text-bone sm:py-32 lg:py-40">
+        <div class="mx-auto max-w-site px-5 sm:px-8 lg:px-12">
+          <div class="reveal grid gap-10 lg:grid-cols-12">
+            <div class="lg:col-span-4"><p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-[#c4a46a]">What we do</p></div>
+            <div class="lg:col-span-8"><h2 class="font-display text-5xl font-medium leading-none tracking-[-.03em] sm:text-7xl">Strategy that earns its place in the real world.</h2></div>
+          </div>
+          <div class="mt-20 divide-y divide-bone/15 border-y border-bone/15">
+            <article class="reveal grid gap-7 py-12 lg:grid-cols-12 lg:py-16">
+              <span class="font-display text-3xl italic text-[#c4a46a] lg:col-span-2">01</span>
+              <h3 class="font-display text-4xl lg:col-span-4 lg:text-5xl">Brand</h3>
+              <div class="lg:col-span-6"><p class="text-xl leading-relaxed text-bone/80">Align the inside so the outside rings true.</p><p class="mt-5 max-w-xl leading-relaxed text-bone/55">We help organisations define what they stand for, sharpen how they compete and build brands that make their strategy visible.</p></div>
+            </article>
+            <article class="reveal grid gap-7 py-12 lg:grid-cols-12 lg:py-16">
+              <span class="font-display text-3xl italic text-[#c4a46a] lg:col-span-2">02</span>
+              <h3 class="font-display text-4xl lg:col-span-4 lg:text-5xl">Corporate strategy</h3>
+              <div class="lg:col-span-6"><p class="text-xl leading-relaxed text-bone/80">Choose where to play—and what it will take to win.</p><p class="mt-5 max-w-xl leading-relaxed text-bone/55">We turn ambition into clear choices, practical priorities and a shared direction leaders can act on.</p></div>
+            </article>
+            <article class="reveal grid gap-7 py-12 lg:grid-cols-12 lg:py-16">
+              <span class="font-display text-3xl italic text-[#c4a46a] lg:col-span-2">03</span>
+              <h3 class="font-display text-4xl lg:col-span-4 lg:text-5xl">Commercial strategy</h3>
+              <div class="lg:col-span-6"><p class="text-xl leading-relaxed text-bone/80">Turn strategy into revenue.</p><p class="mt-5 max-w-xl leading-relaxed text-bone/55">From market entry and offer design to pricing, partnerships and routes to market, we build the path from intent to growth.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-bone py-24 sm:py-32 lg:py-40">
+        <div class="mx-auto max-w-site px-5 sm:px-8 lg:px-12">
+          <div class="reveal grid gap-12 lg:grid-cols-12">
+            <div class="lg:col-span-5">
+              <p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-brass">Two directions of value</p>
+              <h2 class="mt-8 font-display text-5xl font-medium leading-none tracking-[-.03em] sm:text-7xl">Built here.<br /><i>Ready for there.</i></h2>
+            </div>
+            <div class="grid gap-px bg-ink/15 lg:col-span-7 md:grid-cols-2">
+              <div class="bg-bone p-8 sm:p-12"><span class="font-display text-5xl italic text-brass">↗</span><h3 class="mt-16 font-display text-3xl">Adding value at home</h3><p class="mt-4 leading-relaxed text-stone">From raw to refined, commodity to brand, local relevance to regional strength.</p></div>
+              <div class="bg-bone p-8 sm:p-12"><span class="font-display text-5xl italic text-brass">↙</span><h3 class="mt-16 font-display text-3xl">Bringing value home</h3><p class="mt-4 leading-relaxed text-stone">Helping global organisations understand, enter and grow in African markets with credibility.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="border-y border-ink/10 bg-white py-24 sm:py-32 lg:py-40">
+        <div class="reveal mx-auto grid max-w-site gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:px-12">
+          <div class="lg:col-span-4"><p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-brass">The firm</p></div>
+          <div class="lg:col-span-8">
+            <blockquote class="font-display text-4xl font-medium leading-[1.08] tracking-[-.025em] sm:text-6xl">“We don't just discuss value. We help you add it.”</blockquote>
+            <div class="mt-12 grid gap-8 border-t border-ink/15 pt-8 leading-relaxed text-stone md:grid-cols-2">
+              <p>Tito Alai &amp; Associates brings the rigour of a high-end advisory firm and the fluency of people who have built and led in African markets.</p>
+              <p>Our work is senior, practical and close to the decision—designed for leaders who need clarity they can use, not strategy that stays on the page.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="insights" class="bg-bone py-24 sm:py-32 lg:py-40">
+        <div class="mx-auto max-w-site px-5 sm:px-8 lg:px-12">
+          <div class="reveal flex flex-col justify-between gap-8 border-b border-ink pb-10 md:flex-row md:items-end">
+            <div><p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-brass">Perspective</p><h2 class="mt-5 font-display text-5xl font-medium sm:text-7xl">Ideas worth acting on.</h2></div>
+            <p class="max-w-sm leading-relaxed text-stone">Sharp thinking on value, African markets and the choices that shape durable growth.</p>
+          </div>
+          <div class="grid md:grid-cols-3">
+            <article class="reveal border-b border-ink/15 py-10 md:border-b-0 md:border-r md:px-8 md:first:pl-0"><p class="text-[.65rem] font-semibold uppercase tracking-[.24em] text-brass">Point of view</p><h3 class="mt-10 font-display text-3xl leading-tight">Value addition is not a slogan. It is a system.</h3><a href="#contact" class="mt-12 inline-block text-xs font-semibold uppercase tracking-[.2em]">Discuss the idea →</a></article>
+            <article class="reveal border-b border-ink/15 py-10 md:border-b-0 md:border-r md:px-8"><p class="text-[.65rem] font-semibold uppercase tracking-[.24em] text-brass">Brand</p><h3 class="mt-10 font-display text-3xl leading-tight">What the board should know about the brand.</h3><a href="#contact" class="mt-12 inline-block text-xs font-semibold uppercase tracking-[.2em]">Discuss the idea →</a></article>
+            <article class="reveal py-10 md:px-8 md:pr-0"><p class="text-[.65rem] font-semibold uppercase tracking-[.24em] text-brass">Markets</p><h3 class="mt-10 font-display text-3xl leading-tight">The difference between entering Africa and belonging here.</h3><a href="#contact" class="mt-12 inline-block text-xs font-semibold uppercase tracking-[.2em]">Discuss the idea →</a></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="relative overflow-hidden bg-ink py-24 text-bone sm:py-32 lg:py-40">
+        <div class="pointer-events-none absolute -bottom-52 -right-24 font-display text-[34rem] italic leading-none text-bone/[.025]" aria-hidden="true">&amp;</div>
+        <div class="reveal relative mx-auto grid max-w-site gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:px-12">
+          <div class="lg:col-span-7"><p class="text-[.68rem] font-semibold uppercase tracking-[.3em] text-[#c4a46a]">Start a conversation</p><h2 class="mt-8 font-display text-6xl font-medium leading-[.88] tracking-[-.04em] sm:text-8xl">What value<br />could we make <i>real?</i></h2></div>
+          <form class="grid gap-7 self-end lg:col-span-5" onsubmit="event.preventDefault(); document.getElementById('form-note').textContent='Thank you. Connect this form to your preferred email or CRM endpoint to receive enquiries.';">
+            <label class="grid gap-2 text-[.65rem] font-semibold uppercase tracking-[.2em] text-bone/60">Name<input required name="name" class="border-b border-bone/30 bg-transparent py-3 text-base normal-case tracking-normal text-bone outline-none transition-colors focus:border-[#c4a46a]" /></label>
+            <label class="grid gap-2 text-[.65rem] font-semibold uppercase tracking-[.2em] text-bone/60">Email<input required type="email" name="email" class="border-b border-bone/30 bg-transparent py-3 text-base normal-case tracking-normal text-bone outline-none transition-colors focus:border-[#c4a46a]" /></label>
+            <label class="grid gap-2 text-[.65rem] font-semibold uppercase tracking-[.2em] text-bone/60">How can we help?<textarea required name="message" rows="3" class="resize-none border-b border-bone/30 bg-transparent py-3 text-base normal-case tracking-normal text-bone outline-none transition-colors focus:border-[#c4a46a]"></textarea></label>
+            <button class="mt-3 justify-self-start border border-[#c4a46a] px-7 py-4 text-xs font-semibold uppercase tracking-[.2em] text-bone transition-colors hover:bg-[#c4a46a] hover:text-ink" type="submit">Send enquiry</button>
+            <p id="form-note" class="text-sm leading-relaxed text-bone/60" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-ink text-bone">
+      <div class="mx-auto max-w-site border-t border-bone/15 px-5 py-12 sm:px-8 lg:px-12">
+        <div class="grid items-end gap-12 md:grid-cols-2">
+          <div><p class="font-display text-3xl font-medium uppercase tracking-[.16em]">Tito Alai</p><div class="my-3 h-px w-28 bg-[#c4a46a]"></div><p class="text-xs font-semibold uppercase tracking-[.3em]"><i class="mr-3 font-display text-lg font-normal text-[#c4a46a]">&amp;</i>Associates</p></div>
+          <div class="md:text-right"><p class="font-display text-2xl italic text-bone/80">Value, made real.</p><p class="mt-6 text-[.62rem] uppercase tracking-[.18em] text-bone/40">© <span id="year"></span> Tito Alai &amp; Associates. All rights reserved.</p></div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuButton = document.getElementById('menu-button');
+      const menu = document.getElementById('menu');
+      menuButton.addEventListener('click', () => {
+        const open = menuButton.getAttribute('aria-expanded') === 'true';
+        menuButton.setAttribute('aria-expanded', String(!open));
+        menu.classList.toggle('hidden');
+      });
+      menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+        if (window.innerWidth < 1024) { menu.classList.add('hidden'); menuButton.setAttribute('aria-expanded', 'false'); }
+      }));
+      const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+        if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+      }), { threshold: .12 });
+      document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
